@@ -1,14 +1,45 @@
+### After cloning the file 
+cd backend and cd frontend in each
+- npm init 
+- npm install
+To install all the dependencies
+### create a env file with database address and port no.
 
-Stuck at fullstack activity:
+DB=<mongodb address>
 
-error 
-    localhost 3000 to be resolved and another error
- 
-    res.status(400).json({error: error}) is not a function
+PORT=<eg : 3000>
+
+## Terminal cd backend/ cd frontend
+
+To run backend -----------
+        npm start
+
+To run front ------
+        node node_modules/live-server/live-server --port=8081
+
+
+## Stuck at fullstack activity:
+
+### issue
+
+tried posting with the help of post man 
+{
+    'name': 'stone',
+    'description' : 'test product',
+    'price' : 25,
+    'inStock' : 'true'
+}
+
+gives error status 500 and TypeError: Cannot read properties of undefined (reading &#39;name&#39;)<br> &nbsp; &nbsp;at app.js:39:22
 
 ### Helpful sites 
 
 https://openclassrooms.com/forum/sujet/passez-au-full-stack-avec-node-js-express-et
 
-mongodb: pw: QtgW1D22MVuFOmQV
+
+Reference: go fullstack project
+
+
+### using mongodb compass on local host for now
 username yangchen
+mongodb: QtgW1D22MVuFOmQV
